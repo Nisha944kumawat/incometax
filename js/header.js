@@ -11,9 +11,11 @@ const headerTemplate = `
 
 <header class="navbar">
 
-    <div class="logo">
+  <div class="logo">
+    <a href="/">
         <img src="/img/lg.png" alt="Logo">
-    </div>
+    </a>
+</div>
 
     <nav>
         <ul class="menu">
@@ -25,17 +27,17 @@ const headerTemplate = `
                 </a>
 
                 <ul class="submenu">
-                   <li><a href="/servicespages/gst-registration.html">GST Registration</a></li>
-<li><a href="/servicespages/gst-return-filing.html">GST Return Filing</a></li>
-<li><a href="/servicespages/gst-compliance-advisory.html">GST Compliance & Advisory</a></li>
-<li><a href="/servicespages/gst-notice-litigation.html">GST Notice & Litigation Support</a></li>
-<li><a href="/servicespages/gst-audit-reconciliation.html">GST Audit & Reconciliation</a></li>
-<li><a href="/servicespages/e-invoicing-ewaybill.html">E-Invoicing & E-Way Bill</a></li>
-<li><a href="/servicespages/specialized-gst-services.html">Specialized GST Services</a></li>
-<li><a href="/servicespages/gstr10-final-return.html">Final Return (GSTR-10)</a></li>
-<li><a href="/servicespages/gst-notice-support.html">GST Notice & Support</a></li>
-<li><a href="/servicespages/gst-accounting-compliance.html">GST Accounting & Compliance Support</a></li>
-<li><a href="/servicespages/gst-revocation.html">GST Revocation</a></li>
+                   <li><a href="../servicespages/gst-registration.html">GST Registration</a></li>
+<li><a href="../servicespages/gst-return-filing.html">GST Return Filing</a></li>
+<li><a href="../servicespages/gst-compliance-advisory.html">GST Compliance & Advisory</a></li>
+<li><a href="../servicespages/gst-notice-litigation.html">GST Notice & Litigation Support</a></li>
+<li><a href="../servicespages/gst-audit-reconciliation.html">GST Audit & Reconciliation</a></li>
+<li><a href="../servicespages/e-invoicing-ewaybill.html">E-Invoicing & E-Way Bill</a></li>
+<li><a href="../servicespages/specialized-gst-services.html">Specialized GST Services</a></li>
+<li><a href="../servicespages/gstr10-final-return.html">Final Return (GSTR-10)</a></li>
+<li><a href="../servicespages/gst-notice-support.html">GST Notice & Support</a></li>
+<li><a href="../servicespages/gst-accounting-compliance.html">GST Accounting & Compliance Support</a></li>
+<li><a href="../servicespages/gst-revocation.html">GST Revocation</a></li>
                 </ul>
             </li>
             
@@ -379,80 +381,48 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+// mobile js for navbar
+document.addEventListener("click", function (e) {
+  if (e.target.closest(".mobile-toggle")) {
+    document.querySelector(".mobile-menu").classList.add("active");
 
+    document.querySelector(".mobile-overlay").classList.add("active");
+  }
 
+  if (
+    e.target.closest(".mobile-close") ||
+    e.target.closest(".mobile-overlay")
+  ) {
+    document.querySelector(".mobile-menu").classList.remove("active");
 
-
-// mobile js for navbar 
-document.addEventListener("click", function(e){
-
-    if(e.target.closest(".mobile-toggle")){
-
-        document
-        .querySelector(".mobile-menu")
-        .classList.add("active");
-
-        document
-        .querySelector(".mobile-overlay")
-        .classList.add("active");
-    }
-
-    if(
-        e.target.closest(".mobile-close") ||
-        e.target.closest(".mobile-overlay")
-    ){
-
-        document
-        .querySelector(".mobile-menu")
-        .classList.remove("active");
-
-        document
-        .querySelector(".mobile-overlay")
-        .classList.remove("active");
-    }
-
+    document.querySelector(".mobile-overlay").classList.remove("active");
+  }
 });
 
+document.addEventListener("click", function (e) {
+  const mobileLink = e.target.closest(".mobile-link");
 
-document.addEventListener("click", function(e){
+  if (!mobileLink) return;
 
-    const mobileLink = e.target.closest(".mobile-link");
+  const currentSubmenu = mobileLink.nextElementSibling;
 
-    if(!mobileLink) return;
+  const currentIcon = mobileLink.querySelector(".mobile-icon");
 
-    const currentSubmenu =
-    mobileLink.nextElementSibling;
+  // sab close karo
+  document.querySelectorAll(".mobile-submenu").forEach((submenu) => {
+    if (submenu !== currentSubmenu) {
+      submenu.classList.remove("show");
+    }
+  });
 
-    const currentIcon =
-    mobileLink.querySelector(".mobile-icon");
+  document.querySelectorAll(".mobile-icon").forEach((icon) => {
+    if (icon !== currentIcon) {
+      icon.innerHTML = "+";
+    }
+  });
 
-    // sab close karo
-    document
-    .querySelectorAll(".mobile-submenu")
-    .forEach(submenu => {
+  // current toggle
+  currentSubmenu.classList.toggle("show");
 
-        if(submenu !== currentSubmenu){
-            submenu.classList.remove("show");
-        }
-
-    });
-
-    document
-    .querySelectorAll(".mobile-icon")
-    .forEach(icon => {
-
-        if(icon !== currentIcon){
-            icon.innerHTML = "+";
-        }
-
-    });
-
-    // current toggle
-    currentSubmenu.classList.toggle("show");
-
-    currentIcon.innerHTML =
-    currentSubmenu.classList.contains("show")
-    ? "-"
-    : "+";
-
+  currentIcon.innerHTML = currentSubmenu.classList.contains("show") ? "-" : "+";
 });
