@@ -25,17 +25,17 @@ const headerTemplate = `
                 </a>
 
                 <ul class="submenu">
-                   <li><a href="gst-registration.html">GST Registration</a></li>
-<li><a href="gst-return-filing.html">GST Return Filing</a></li>
-<li><a href="gst-compliance-advisory.html">GST Compliance & Advisory</a></li>
-<li><a href="gst-notice-litigation.html">GST Notice & Litigation Support</a></li>
-<li><a href="gst-audit-reconciliation.html">GST Audit & Reconciliation</a></li>
-<li><a href="e-invoicing-ewaybill.html">E-Invoicing & E-Way Bill</a></li>
-<li><a href="specialized-gst-services.html">Specialized GST Services</a></li>
-<li><a href="gstr10-final-return.html">Final Return (GSTR-10)</a></li>
-<li><a href="gst-notice-support.html">GST Notice & Support</a></li>
-<li><a href="gst-accounting-compliance.html">GST Accounting & Compliance Support</a></li>
-<li><a href="gst-revocation.html">GST Revocation</a></li>
+                   <li><a href="/servicespages/gst-registration.html">GST Registration</a></li>
+<li><a href="/servicespages/gst-return-filing.html">GST Return Filing</a></li>
+<li><a href="/servicespages/gst-compliance-advisory.html">GST Compliance & Advisory</a></li>
+<li><a href="/servicespages/gst-notice-litigation.html">GST Notice & Litigation Support</a></li>
+<li><a href="/servicespages/gst-audit-reconciliation.html">GST Audit & Reconciliation</a></li>
+<li><a href="/servicespages/e-invoicing-ewaybill.html">E-Invoicing & E-Way Bill</a></li>
+<li><a href="/servicespages/specialized-gst-services.html">Specialized GST Services</a></li>
+<li><a href="/servicespages/gstr10-final-return.html">Final Return (GSTR-10)</a></li>
+<li><a href="/servicespages/gst-notice-support.html">GST Notice & Support</a></li>
+<li><a href="/servicespages/gst-accounting-compliance.html">GST Accounting & Compliance Support</a></li>
+<li><a href="/servicespages/gst-revocation.html">GST Revocation</a></li>
                 </ul>
             </li>
             
