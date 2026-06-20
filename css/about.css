@@ -1,0 +1,559 @@
+/* =========================
+   ABOUT SECTION START
+========================= */
+
+:root{
+    --primary:#081B33;      /* Dark Blue */
+    --secondary:#D4AF37;    /* Gold */
+    --white:#ffffff;
+    --text:#666;
+    --light:#f8f8f8;
+}
+
+.about-section{
+    padding:60px 20px;
+    background:#fff;
+    overflow:hidden;
+}
+
+.about-container{
+    max-width:1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:520px 1fr;
+    gap:60px;
+    align-items:center;
+}
+
+/* LEFT SIDE */
+
+.about-images{
+    position:relative;
+    width:520px;
+}
+
+.main-image{
+    width:460px;
+}
+
+.main-image img{
+    width:100%;
+    height:520px;
+    object-fit:cover;
+    border-radius:15px;
+    display:block;
+}
+
+.small-image{
+    position:absolute;
+    left:-40px;
+    top:240px;
+
+    width:240px;
+    background:#fff;
+    padding:10px;
+    border-radius:15px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+    z-index:2;
+}
+
+.small-image img{
+    width:100%;
+    display:block;
+    border-radius:10px;
+}
+
+/* SATISFACTION BOX*/
+
+.satisfaction-box{
+    position:absolute;
+    bottom:-45px;
+    left:120px;
+
+    width:400px;
+
+    background:var(--primary);
+    color:#fff;
+
+    display:flex;
+    align-items:center;
+    gap:10px;
+
+    padding:10px;
+
+    border-radius:18px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+    z-index:3;
+}
+.satisfaction-icon{
+    width:55px;
+    height:55px;
+
+    background:var(--secondary);
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    border-radius:50%;
+    flex-shrink:0;
+}
+
+.satisfaction-icon i{
+    font-size:26px;
+    color:#fff;
+}
+
+.satisfaction-content{
+    flex:1;
+}
+
+.satisfaction-top{
+    display:flex;
+    justify-content:flex-start; 
+    align-items:center;
+    gap:15px; 
+    margin-bottom:5px;
+}
+
+.satisfaction-top h4{
+    font-size:20px;
+    font-weight:700;
+}
+
+.satisfaction-top span{
+    font-size:24px;
+    font-weight:700;
+}
+
+.progress-bar{
+    height:10px;
+    background:#ddd;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.progress-fill{
+    width:0%;
+    height:100%;
+    background:var(--secondary);
+    border-radius:20px;
+}
+
+/*  RIGHT SIDE */
+.about-subtitle{
+    color:var(--secondary);
+    font-size:15px;
+    font-weight:700;
+    letter-spacing:3px;
+    display:block;
+    margin-bottom:15px;
+}
+
+.about-title{
+    font-size:50px;
+    line-height:1.15;
+    color:var(--primary);
+    margin-bottom:25px;
+    font-weight:800;
+}
+
+.about-text{
+    font-size:16px;
+    line-height:1.9;
+    color:var(--text);
+    margin-bottom:20px;
+}
+
+/*FEATURES */
+
+.about-features{
+    margin-top:25px;
+
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.feature-item{
+    font-size:15px;
+    font-weight:600;
+    color:var(--primary);
+
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.feature-item i{
+    color:var(--secondary);
+}
+
+/*  EXPERIENCE CARD */
+
+.about-bottom{
+    margin-top:35px;
+}
+
+.experience-card{
+    width:200px;
+    height:200px;   /* pehle auto/zyada tha */
+
+    border:2px solid var(--secondary);
+    border-radius:18px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+    padding:15px;
+    margin-top: 50px;
+}
+
+.experience-card i{
+    font-size:38px;
+    color:var(--secondary);
+    margin-bottom:15px;   /* pehle 15px */
+}
+
+.experience-card h3{
+    font-size:46px;
+    color:var(--primary);
+    margin-bottom:2px;   /* pehle 0 ya zyada */
+    line-height:1;
+    margin-top: 0px;
+}
+
+.experience-card p{
+    font-size:15px;
+    line-height:1.2;
+    margin:0;
+    color:var(--primary);
+    font-weight:600;
+}
+
+/* BUTTON */
+
+.about-btn{
+    display:inline-block;
+    margin-top:30px;
+
+    background:var(--secondary);
+    color:#fff;
+
+    padding:15px 35px;
+
+    text-decoration:none;
+    border-radius:8px;
+
+    font-size:17px;
+    font-weight:600;
+
+    transition:.4s;
+}
+
+.about-btn:hover{
+    transform:translateY(-5px);
+}
+
+/* ANIMATIONS */
+
+.slide-left{
+    opacity:0;
+    transform:translateX(-120px);
+}
+
+.slide-left.show{
+    opacity:1;
+    transform:translateX(0);
+    transition:1.2s ease;
+}
+
+.fade-up{
+    opacity:0;
+    transform:translateY(70px);
+}
+
+.fade-up.show{
+    opacity:1;
+    transform:translateY(0);
+    transition:1s ease;
+}
+
+.advantages-wrapper{
+    display:grid;
+    grid-template-columns:1fr 250px;
+    gap:30px;
+    align-items:start;
+    margin-top:20px;
+}
+.advantages-title{
+    font-size:30px;
+    font-weight:700;
+    color:var(--primary);
+    margin-bottom:30px;
+}
+
+
+/* =========================
+   TABLET RESPONSIVE
+========================= */
+
+@media(max-width:992px){
+   .small-image{
+        display:none;
+    }
+    .about-container{
+        grid-template-columns:1fr;
+        gap:90px;
+    }
+
+    .about-images{
+        width:100%;
+        max-width:520px;
+        margin:auto;
+    }
+
+    .main-image{
+        width:100%;
+    }
+
+    .main-image img{
+        width:100%;
+        height:auto;
+    }
+
+    .advantages-wrapper{
+        grid-template-columns:1fr;
+        gap:30px;
+    }
+
+    .experience-card{
+        width:220px;
+        height:180px;
+        margin-top:0;
+    }
+
+    .about-title{
+        font-size:42px;
+    }
+
+    .satisfaction-box{
+        left:50%;
+        transform:translateX(-50%);
+    }
+}
+
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media(max-width:768px){
+      .about-images{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .main-image{
+        width: 100%;
+        max-width: 330px;
+        margin: 0 auto;
+    }
+
+    .satisfaction-box{
+        width: 100%;
+        max-width: 330px;
+        margin: 15px auto 0;
+    }
+        .about-content{
+        text-align: center;
+    }
+
+    .advantages-wrapper{
+        justify-items: center;
+    }
+   .small-image{
+        display:none;
+    }
+    .about-section{
+        padding:60px 15px;
+    }
+
+    .about-container{
+        gap:70px;
+    }
+
+    .about-images{
+        width:100%;
+        max-width:330px;
+        margin:auto;
+    }
+
+    .main-image{
+        width:100%;
+    }
+
+    .main-image img{
+        width:100%;
+        height:auto;
+    }
+
+    .small-image{
+        width:130px;
+        left:-15px;
+        top:90px;
+    }
+
+    .satisfaction-box{
+        position:relative;
+        width:100%;
+        left:0;
+        bottom:auto;
+        transform:none;
+        margin-top:15px;
+        padding:12px;
+    }
+
+    .satisfaction-top h4{
+        font-size:16px;
+    }
+
+    .satisfaction-top span{
+        font-size:16px;
+    }
+
+    .about-title{
+        font-size:30px;
+        line-height:1.2;
+    }
+
+    .about-text{
+        font-size:14px;
+        line-height:1.8;
+    }
+
+    .advantages-title{
+        font-size:24px;
+        margin-bottom:20px;
+    }
+
+    .feature-item{
+        font-size:14px;
+        line-height:1.5;
+    }
+
+    .advantages-wrapper{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    .experience-card{
+        width:100%;
+        max-width:220px;
+        height:140px;
+        margin-top:0;
+    }
+
+    .experience-card i{
+        font-size:28px;
+        margin-bottom:5px;
+    }
+
+    .experience-card h3{
+        font-size:34px;
+    }
+
+    .experience-card p{
+        font-size:14px;
+    }
+
+    .about-btn{
+        padding:12px 25px;
+        font-size:15px;
+    }
+}
+
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media(max-width:480px){
+      .about-images{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .main-image{
+        width: 100%;
+        max-width: 330px;
+        margin: 0 auto;
+    }
+
+    .satisfaction-box{
+        width: 100%;
+        max-width: 330px;
+        margin: 15px auto 0;
+    }
+        .about-content{
+        text-align: center;
+    }
+
+    .advantages-wrapper{
+        justify-items: center;
+    }
+   .small-image{
+        display:none;
+    }
+    .about-images{
+        max-width:300px;
+    }
+
+    .small-image{
+        width:110px;
+        top:70px;
+        left:-10px;
+    }
+
+    .satisfaction-icon{
+        width:45px;
+        height:45px;
+    }
+
+    .satisfaction-icon i{
+        font-size:18px;
+    }
+
+    .satisfaction-top{
+        gap:8px;
+    }
+
+    .satisfaction-top h4{
+        font-size:15px;
+    }
+
+    .satisfaction-top span{
+        font-size:15px;
+    }
+
+    .about-title{
+        font-size:26px;
+    }
+
+    .experience-card{
+        max-width:200px;
+        height:130px;
+    }
+}
+/* =========================
+   ABOUT SECTION END
+========================= */
