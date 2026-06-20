@@ -111,13 +111,7 @@ body{
 }
 
 
-.banner-section h1{
-    margin:0 auto !important;
-    text-align:center !important;
-    width:100%;
-    display:block;
-    margin-left: 100% !important;
-}
+
 .banner-section br{
     display:none;
 }
@@ -436,13 +430,7 @@ textarea.form-control{
     .sidebar-form-box{
         padding:22px;
     }
-    .banner-section h1{
-    margin:0 auto !important;
-    text-align:center !important;
-    width:100%;
-    display:block;
-    margin-left: 40% !important;
-}
+
 
 }
 
@@ -485,11 +473,5 @@ textarea.form-control{
         height:50px;
         font-size:15px;
     }
-        .banner-section h1{
-    margin:0 auto !important;
-    text-align:center !important;
-    width:100%;
-    display:block;
-    margin-left: 40% !important;
-}
+
 }

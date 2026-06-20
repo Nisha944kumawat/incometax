@@ -42,25 +42,25 @@ const headerTemplate = `
             </li>
             
                         <li class="dropdown">
-                <a href="#">
+                <a href="../servicespages/contact.html">
                    Income tax 
                     <i class="fa-solid fa-angle-down"></i>
                 </a>
 
                 <ul class="submenu">
-                    <li><a href="income-tax-return-filing.html">Income Tax Return (ITR) Filing</a></li>
-<li><a href="tax-planning-advisory.html">Tax Planning & Advisory</a></li>
-<li><a href="business-professional-taxation.html">Business & Professional Taxation</a></li>
-<li><a href="income-tax-notice-scrutiny.html">Income Tax Notice & Scrutiny</a></li>
-<li><a href="tds-compliance-services.html">TDS & Compliance Services</a></li>
-<li><a href="capital-gains-investment-taxation.html">Capital Gains & Investment Taxation</a></li>
-<li><a href="specialized-income-tax-services.html">Specialized Income Tax Services</a></li>
-<li><a href="income-tax-return-services.html">Income Tax & Return Services</a></li>
-<li><a href="tds-international-compliance.html">TDS & International Compliance</a></li>
-<li><a href="business-compliance-services.html">Business Compliance Services</a></li>
-<li><a href="certification-attestation.html">Certification & Attestation</a></li>
-<li><a href="legal-documentation-services.html">Legal & Documentation Services</a></li>
-<li><a href="corporate-regulatory-services.html">Corporate & Regulatory Services</a></li>
+                    <li><a href="../servicespages/income-tax-return-filing.html">Income Tax Return (ITR) Filing</a></li>
+<li><a href="../servicespages/tax-planning-advisory.html">Tax Planning & Advisory</a></li>
+<li><a href="../servicespages/business-professional-taxation.html">Business & Professional Taxation</a></li>
+<li><a href="../servicespages/income-tax-notice-scrutiny.html">Income Tax Notice & Scrutiny</a></li>
+<li><a href="../servicespages/tds-compliance-services.html">TDS & Compliance Services</a></li>
+<li><a href="../servicespages/capital-gains-investment-taxation.html">Capital Gains & Investment Taxation</a></li>
+<li><a href="../servicespages/specialized-income-tax-services.html">Specialized Income Tax Services</a></li>
+<li><a href="../servicespages/income-tax-return-services.html">Income Tax & Return Services</a></li>
+<li><a href="../servicespages/tds-international-compliance.html">TDS & International Compliance</a></li>
+<li><a href="../servicespages/business-compliance-services.html">Business Compliance Services</a></li>
+<li><a href="../servicespages/certification-attestation.html">Certification & Attestation</a></li>
+<li><a href="../servicespages/legal-documentation-services.html">Legal & Documentation Services</a></li>
+<li><a href="../servicespages/corporate-regulatory-services.html">Corporate & Regulatory Services</a></li>
                 </ul>
             </li>
                         <li class="dropdown">
@@ -70,13 +70,13 @@ const headerTemplate = `
                 </a>
 
                 <ul class="submenu">
-                   <li><a href="company-incorporation.html">Company Incorporation</a></li>
-<li><a href="roc-compliance-filings.html">ROC Compliance & Filings</a></li>
-<li><a href="board-shareholder-compliance.html">Board & Shareholder Compliance</a></li>
-<li><a href="corporate-legal-advisory.html">Corporate Legal Advisory</a></li>
-<li><a href="company-changes-restructuring.html">Company Changes & Restructuring</a></li>
-<li><a href="fema-rbi-compliance.html">FEMA & RBI Compliance</a></li>
-<li><a href="specialized-cs-services.html">Specialized CS Services</a></li>
+                   <li><a href="../servicespages/company-incorporation.html">Company Incorporation</a></li>
+<li><a href="../servicespages/roc-compliance-filings.html">ROC Compliance & Filings</a></li>
+<li><a href="../servicespages/board-shareholder-compliance.html">Board & Shareholder Compliance</a></li>
+<li><a href="../servicespages/corporate-legal-advisory.html">Corporate Legal Advisory</a></li>
+<li><a href="../servicespages/company-changes-restructuring.html">Company Changes & Restructuring</a></li>
+<li><a href="../servicespages/fema-rbi-compliance.html">FEMA & RBI Compliance</a></li>
+<li><a href="../servicespages/specialized-cs-services.html">Specialized CS Services</a></li>
                 </ul>
             </li>
                         <li class="dropdown">
@@ -86,11 +86,11 @@ const headerTemplate = `
                 </a>
 
                 <ul class="submenu">
-                    <li><a href="statutory-audit.html">Statutory Audit</a></li>
-<li><a href="tax-audit.html">Tax Audit</a></li>
-<li><a href="internal-audit.html">Internal Audit</a></li>
-<li><a href="gst-audit.html">GST Audit</a></li>
-<li><a href="stock-inventory-audit.html">Stock & Inventory Audit</a></li>
+                    <li><a href="../servicespages/statutory-audit.html">Statutory Audit</a></li>
+<li><a href="../servicespages/tax-audit.html">Tax Audit</a></li>
+<li><a href="../servicespages/internal-audit.html">Internal Audit</a></li>
+<li><a href="../servicespages/gst-audit.html">GST Audit</a></li>
+<li><a href="../servicespages/stock-inventory-audit.html">Stock & Inventory Audit</a></li>
                 </ul>
             </li>
                         <li class="dropdown">
@@ -100,12 +100,12 @@ const headerTemplate = `
                 </a>
 
                 <ul class="submenu">
-                   <li><a href="business-entity-registration.html">Business Entity Registration</a></li>
-<li><a href="government-tax-registrations.html">Government Tax Registrations</a></li>
-<li><a href="startup-special-registrations.html">Startup & Special Registrations</a></li>
-<li><a href="ngo-trust-registrations.html">NGO & Trust Registrations</a></li>
-<li><a href="intellectual-property-registrations.html">Intellectual Property Registrations</a></li>
-<li><a href="other-licenses-registrations.html">Other Licenses & Registrations</a></li>
+                   <li><a href="../servicespages/business-entity-registration.html">Business Entity Registration</a></li>
+<li><a href="../servicespages/government-tax-registrations.html">Government Tax Registrations</a></li>
+<li><a href="../servicespages/startup-special-registrations.html">Startup & Special Registrations</a></li>
+<li><a href="../servicespages/ngo-trust-registrations.html">NGO & Trust Registrations</a></li>
+<li><a href="../servicespages/intellectual-property-registrations.html">Intellectual Property Registrations</a></li>
+<li><a href="../servicespages/other-licenses-registrations.html">Other Licenses & Registrations</a></li>
                 </ul>
             </li>
             <li class="dropdown">
@@ -115,15 +115,15 @@ const headerTemplate = `
                 </a>
 
                 <ul class="submenu">
-                    <li><a href="part-time-accounting.html">Part-Time Accounting</a></li>
-<li><a href="weekly-accounting.html">Weekly Accounting</a></li>
-<li><a href="one-time-accounting.html">One-Time Accounting</a></li>
-<li><a href="virtual-accounting.html">Virtual Accounting</a></li>
-<li><a href="outsourced-accounting.html">Outsourced Accounting</a></li>
-<li><a href="contractual-accounting.html">Contractual Accounting</a></li>
-<li><a href="project-based-accounting.html">Project-Based Accounting</a></li>
-<li><a href="monthly-accounting.html">Monthly Accounting</a></li>
-<li><a href="quarterly-accounting.html">Quarterly Accounting</a></li>
+                    <li><a href="../servicespages/part-time-accounting.html">Part-Time Accounting</a></li>
+<li><a href="../servicespages/weekly-accounting.html">Weekly Accounting</a></li>
+<li><a href="../servicespages/one-time-accounting.html">One-Time Accounting</a></li>
+<li><a href="../servicespages/virtual-accounting.html">Virtual Accounting</a></li>
+<li><a href="../servicespages/outsourced-accounting.html">Outsourced Accounting</a></li>
+<li><a href="../servicespages/contractual-accounting.html">Contractual Accounting</a></li>
+<li><a href="../servicespages/project-based-accounting.html">Project-Based Accounting</a></li>
+<li><a href="../servicespages/monthly-accounting.html">Monthly Accounting</a></li>
+<li><a href="../servicespages/quarterly-accounting.html">Quarterly Accounting</a></li>
                 </ul>
             </li>
 
@@ -160,17 +160,17 @@ const headerTemplate = `
 
     <ul class="mobile-submenu">
 
-                   <li><a href="gst-registration.html">GST Registration</a></li>
-<li><a href="gst-return-filing.html">GST Return Filing</a></li>
-<li><a href="gst-compliance-advisory.html">GST Compliance & Advisory</a></li>
-<li><a href="gst-notice-litigation.html">GST Notice & Litigation Support</a></li>
-<li><a href="gst-audit-reconciliation.html">GST Audit & Reconciliation</a></li>
-<li><a href="e-invoicing-ewaybill.html">E-Invoicing & E-Way Bill</a></li>
-<li><a href="specialized-gst-services.html">Specialized GST Services</a></li>
-<li><a href="gstr10-final-return.html">Final Return (GSTR-10)</a></li>
-<li><a href="gst-notice-support.html">GST Notice & Support</a></li>
-<li><a href="gst-accounting-compliance.html">GST Accounting & Compliance Support</a></li>
-<li><a href="gst-revocation.html">GST Revocation</a></li>
+                   <li><a href="../servicespages/gst-registration.html">GST Registration</a></li>
+<li><a href="../servicespages/gst-return-filing.html">GST Return Filing</a></li>
+<li><a href="../servicespages/gst-compliance-advisory.html">GST Compliance & Advisory</a></li>
+<li><a href="../servicespages/gst-notice-litigation.html">GST Notice & Litigation Support</a></li>
+<li><a href="../servicespages/gst-audit-reconciliation.html">GST Audit & Reconciliation</a></li>
+<li><a href="../servicespages/e-invoicing-ewaybill.html">E-Invoicing & E-Way Bill</a></li>
+<li><a href="../servicespages/specialized-gst-services.html">Specialized GST Services</a></li>
+<li><a href="../servicespages/gstr10-final-return.html">Final Return (GSTR-10)</a></li>
+<li><a href="../servicespages/gst-notice-support.html">GST Notice & Support</a></li>
+<li><a href="../servicespages/gst-accounting-compliance.html">GST Accounting & Compliance Support</a></li>
+<li><a href="../servicespages/gst-revocation.html">GST Revocation</a></li>
 
     </ul>
 
@@ -188,19 +188,19 @@ const headerTemplate = `
 
     <ul class="mobile-submenu">
 
-                              <li><a href="income-tax-return-filing.html">Income Tax Return (ITR) Filing</a></li>
-<li><a href="tax-planning-advisory.html">Tax Planning & Advisory</a></li>
-<li><a href="business-professional-taxation.html">Business & Professional Taxation</a></li>
-<li><a href="income-tax-notice-scrutiny.html">Income Tax Notice & Scrutiny</a></li>
-<li><a href="tds-compliance-services.html">TDS & Compliance Services</a></li>
-<li><a href="capital-gains-investment-taxation.html">Capital Gains & Investment Taxation</a></li>
-<li><a href="specialized-income-tax-services.html">Specialized Income Tax Services</a></li>
-<li><a href="income-tax-return-services.html">Income Tax & Return Services</a></li>
-<li><a href="tds-international-compliance.html">TDS & International Compliance</a></li>
-<li><a href="business-compliance-services.html">Business Compliance Services</a></li>
-<li><a href="certification-attestation.html">Certification & Attestation</a></li>
-<li><a href="legal-documentation-services.html">Legal & Documentation Services</a></li>
-<li><a href="corporate-regulatory-services.html">Corporate & Regulatory Services</a></li>
+                              <li><a href="../servicespages/income-tax-return-filing.html">Income Tax Return (ITR) Filing</a></li>
+<li><a href="../servicespages/tax-planning-advisory.html">Tax Planning & Advisory</a></li>
+<li><a href="../servicespages/business-professional-taxation.html">Business & Professional Taxation</a></li>
+<li><a href="../servicespages/income-tax-notice-scrutiny.html">Income Tax Notice & Scrutiny</a></li>
+<li><a href="../servicespages/tds-compliance-services.html">TDS & Compliance Services</a></li>
+<li><a href="../servicespages/capital-gains-investment-taxation.html">Capital Gains & Investment Taxation</a></li>
+<li><a href="../servicespages/specialized-income-tax-services.html">Specialized Income Tax Services</a></li>
+<li><a href="../servicespages/income-tax-return-services.html">Income Tax & Return Services</a></li>
+<li><a href="../servicespages/tds-international-compliance.html">TDS & International Compliance</a></li>
+<li><a href="../servicespages/business-compliance-services.html">Business Compliance Services</a></li>
+<li><a href="../servicespages/certification-attestation.html">Certification & Attestation</a></li>
+<li><a href="../servicespages/legal-documentation-services.html">Legal & Documentation Services</a></li>
+<li><a href="../servicespages/corporate-regulatory-services.html">Corporate & Regulatory Services</a></li>
 
     </ul>
 
@@ -216,13 +216,13 @@ const headerTemplate = `
     </div>
 
     <ul class="mobile-submenu">
-                   <li><a href="company-incorporation.html">Company Incorporation</a></li>
-<li><a href="roc-compliance-filings.html">ROC Compliance & Filings</a></li>
-<li><a href="board-shareholder-compliance.html">Board & Shareholder Compliance</a></li>
-<li><a href="corporate-legal-advisory.html">Corporate Legal Advisory</a></li>
-<li><a href="company-changes-restructuring.html">Company Changes & Restructuring</a></li>
-<li><a href="fema-rbi-compliance.html">FEMA & RBI Compliance</a></li>
-<li><a href="specialized-cs-services.html">Specialized CS Services</a></li>
+                   <li><a href="../servicespages/company-incorporation.html">Company Incorporation</a></li>
+<li><a href="../servicespages/roc-compliance-filings.html">ROC Compliance & Filings</a></li>
+<li><a href="../servicespages/board-shareholder-compliance.html">Board & Shareholder Compliance</a></li>
+<li><a href="../servicespages/corporate-legal-advisory.html">Corporate Legal Advisory</a></li>
+<li><a href="../servicespages/company-changes-restructuring.html">Company Changes & Restructuring</a></li>
+<li><a href="../servicespages/fema-rbi-compliance.html">FEMA & RBI Compliance</a></li>
+<li><a href="../servicespages/specialized-cs-services.html">Specialized CS Services</a></li>
 
     </ul>
 
@@ -238,11 +238,11 @@ const headerTemplate = `
 
     <ul class="mobile-submenu">
 
-                    <li><a href="statutory-audit.html">Statutory Audit</a></li>
-<li><a href="tax-audit.html">Tax Audit</a></li>
-<li><a href="internal-audit.html">Internal Audit</a></li>
-<li><a href="gst-audit.html">GST Audit</a></li>
-<li><a href="stock-inventory-audit.html">Stock & Inventory Audit</a></li>
+                    <li><a href="../servicespages/statutory-audit.html">Statutory Audit</a></li>
+<li><a href="../servicespages/tax-audit.html">Tax Audit</a></li>
+<li><a href="../servicespages/internal-audit.html">Internal Audit</a></li>
+<li><a href="../servicespages/gst-audit.html">GST Audit</a></li>
+<li><a href="../servicespages/stock-inventory-audit.html">Stock & Inventory Audit</a></li>
 
     </ul>
 
@@ -258,12 +258,12 @@ const headerTemplate = `
 
     <ul class="mobile-submenu">
 
-                     <li><a href="business-entity-registration.html">Business Entity Registration</a></li>
-<li><a href="government-tax-registrations.html">Government Tax Registrations</a></li>
-<li><a href="startup-special-registrations.html">Startup & Special Registrations</a></li>
-<li><a href="ngo-trust-registrations.html">NGO & Trust Registrations</a></li>
-<li><a href="intellectual-property-registrations.html">Intellectual Property Registrations</a></li>
-<li><a href="other-licenses-registrations.html">Other Licenses & Registrations</a></li>
+                     <li><a href="../servicespages/business-entity-registration.html">Business Entity Registration</a></li>
+<li><a href="../servicespages/government-tax-registrations.html">Government Tax Registrations</a></li>
+<li><a href="../servicespages/startup-special-registrations.html">Startup & Special Registrations</a></li>
+<li><a href="../servicespages/ngo-trust-registrations.html">NGO & Trust Registrations</a></li>
+<li><a href="../servicespages/intellectual-property-registrations.html">Intellectual Property Registrations</a></li>
+<li><a href="../servicespages/other-licenses-registrations.html">Other Licenses & Registrations</a></li>
 
     </ul>
 
@@ -279,22 +279,22 @@ const headerTemplate = `
 
     <ul class="mobile-submenu">
 
-                    <li><a href="part-time-accounting.html">Part-Time Accounting</a></li>
-<li><a href="weekly-accounting.html">Weekly Accounting</a></li>
-<li><a href="one-time-accounting.html">One-Time Accounting</a></li>
-<li><a href="virtual-accounting.html">Virtual Accounting</a></li>
-<li><a href="outsourced-accounting.html">Outsourced Accounting</a></li>
-<li><a href="contractual-accounting.html">Contractual Accounting</a></li>
-<li><a href="project-based-accounting.html">Project-Based Accounting</a></li>
-<li><a href="monthly-accounting.html">Monthly Accounting</a></li>
-<li><a href="quarterly-accounting.html">Quarterly Accounting</a></li>
+                    <li><a href="../servicespages/part-time-accounting.html">Part-Time Accounting</a></li>
+<li><a href="../servicespages/weekly-accounting.html">Weekly Accounting</a></li>
+<li><a href="../servicespages/one-time-accounting.html">One-Time Accounting</a></li>
+<li><a href="../servicespages/virtual-accounting.html">Virtual Accounting</a></li>
+<li><a href="../servicespages/outsourced-accounting.html">Outsourced Accounting</a></li>
+<li><a href="../servicespages/contractual-accounting.html">Contractual Accounting</a></li>
+<li><a href="../servicespages/project-based-accounting.html">Project-Based Accounting</a></li>
+<li><a href="../servicespages/monthly-accounting.html">Monthly Accounting</a></li>
+<li><a href="../servicespages/quarterly-accounting.html">Quarterly Accounting</a></li>
 
     </ul>
 
 </li>
 
         <li>
-            <a href="contact.html">Contact</a>
+            <a href="../servicespages/contact.html">Contact</a>
         </li>
 
 <li class="mobile-contact">
