@@ -4,7 +4,7 @@ const headerTemplate = `
 <div class="top-left">
 
         <div class="info-box">
-            <span>The Tax Titan Accounting Solutions Private Limited</span>
+            <span>THE TAX TITANS</span>
         </div>
     </div>
 </div>
@@ -343,11 +343,9 @@ const headerTemplate = `
 
     </ul>
 <div class="info-box-mobile">
-            <span>The Tax Titan</span>
+            <span>THE TAX TITANS</span>
         </div>
-        <div class="info-box-mobile2">
-            <span> Accounting Solutions Private Limited</span>
-        </div>
+     
 </div>
 
 
