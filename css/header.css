@@ -102,7 +102,7 @@ body{
 .logo img{
     height:110px;
     width:auto;
-    max-width:260px;
+    max-width:200px;
     object-fit:contain;
     display:block;
 }

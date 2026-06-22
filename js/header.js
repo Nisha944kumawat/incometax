@@ -13,7 +13,7 @@ const headerTemplate = `
 
   <div class="logo">
     <a href="/">
-        <img src="/img/lg.png" alt="Logo">
+        <img src="/img/lg2.png" alt="Logo">
     </a>
 </div>
 
@@ -141,7 +141,7 @@ const headerTemplate = `
 
     <div class="mobile-menu-header">
 
-        <img src="/img/lg.png" alt="">
+        <img src="/img/lg2.png" alt="">
 
         <span class="mobile-close">
             <i class="fas fa-times"></i>
