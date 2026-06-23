@@ -17,11 +17,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
            <div class="footer-social">
 
-                <a href="https://www.facebook.com/" target="_blank">
+                <a href="https://www.facebook.com/profile.php?id=61568445872166" target="_blank">
                    <i class="fa-brands fa-facebook-f"></i>
                 </a>
 
-                <a href="https://www.instagram.com/" target="_blank">
+                <a href="https://www.instagram.com/the_taxtitans/" target="_blank">
                   <i class="fa-brands fa-instagram"></i>
                 </a>
 
@@ -44,12 +44,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
             <h3>Pages</h3>
 
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="whychooseus.html">Why Choose Us</a>
-            <a href="services.html">Services</a>
-            <a href="Faq.html">FAQ</a>
-            <a href="contact.html">Contact</a>
+            <a href="/">Home</a>
+            <a href="#about">About</a>
+            <a href="#why">Why Choose Us</a>
+            <a href="#servi">Services</a>
+            <a href="#faq">FAQ</a>
+            <a href="../servicespages/contact.html">Contact</a>
 
         </div>
 
@@ -58,12 +58,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
             <h3>Our Services</h3>
 
-            <p>GST Services</p>
-            <p>Income Tax Services</p>
-            <p>Company Secretary </p>
-            <p>Audit Services</p>
-            <p>Registration Services</p>
-            <p>Accounting Services</p>
+            <a href="../servicespages/gst-registration.html">GST Services</a>
+            <a href="../servicespages/income-tax-return-filing.html">Income Tax Services</a>
+            <a href="../servicespages/company-incorporation.html">Company Secretary </a>
+            <a href="../servicespages/statutory-audit.html">Audit Services</a>
+            <a href="../servicespages/business-entity-registration.html">Registration Services</a>
+            <a href="../servicespages/outsourced-accounting.html">Accounting Services</a>
 
         </div>
 
@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="contact-item">
                 <i class="fa-solid fa-location-dot"></i>
                 <a href="https://www.google.com/maps/search/Suleman+Building+2nd+Floor+Room+No.26+Undariya+Street+Chowki+Mohallah+Nagpada+Mumbai+Central+Maharashtra+40000/@18.9664043,72.798536,13.81z?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D" target="_blank">
-                    Suleman Building 2nd Floor Room No.26 Undariya Street
+                    Suleman Building 2nd Floor Undariya Street
                     Chowki Mohallah Nagpada Mumbai Central Maharashtra 40000
                 </a>
             </div>

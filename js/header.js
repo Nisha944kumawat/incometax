@@ -36,8 +36,8 @@ const headerTemplate = `
 <li><a href="../servicespages/specialized-gst-services.html">Specialized GST Services</a></li>
 <li><a href="../servicespages/gstr10-final-return.html">Final Return (GSTR-10)</a></li>
 <li><a href="../servicespages/gst-notice-support.html">GST Notice & Support</a></li>
-<li><a href="../servicespages/gst-accounting-compliance.html">GST Accounting & Compliance Support</a></li>
 <li><a href="../servicespages/gst-revocation.html">GST Revocation</a></li>
+<li><a href="../servicespages/gst-accounting-compliance.html">GST Accounting & Compliance Support</a></li>
                 </ul>
             </li>
             
@@ -52,15 +52,15 @@ const headerTemplate = `
 <li><a href="../servicespages/tax-planning-advisory.html">Tax Planning & Advisory</a></li>
 <li><a href="../servicespages/business-professional-taxation.html">Business & Professional Taxation</a></li>
 <li><a href="../servicespages/income-tax-notice-scrutiny.html">Income Tax Notice & Scrutiny</a></li>
-<li><a href="../servicespages/tds-compliance-services.html">TDS & Compliance Services</a></li>
-<li><a href="../servicespages/capital-gains-investment-taxation.html">Capital Gains & Investment Taxation</a></li>
 <li><a href="../servicespages/specialized-income-tax-services.html">Specialized Income Tax Services</a></li>
 <li><a href="../servicespages/income-tax-return-services.html">Income Tax & Return Services</a></li>
 <li><a href="../servicespages/tds-international-compliance.html">TDS & International Compliance</a></li>
 <li><a href="../servicespages/business-compliance-services.html">Business Compliance Services</a></li>
 <li><a href="../servicespages/certification-attestation.html">Certification & Attestation</a></li>
 <li><a href="../servicespages/legal-documentation-services.html">Legal & Documentation Services</a></li>
+<li><a href="../servicespages/tds-compliance-services.html">TDS & Compliance Services</a></li>
 <li><a href="../servicespages/corporate-regulatory-services.html">Corporate & Regulatory Services</a></li>
+<li><a href="../servicespages/capital-gains-investment-taxation.html">Capital Gains & Investment Taxation</a></li>
                 </ul>
             </li>
                         <li class="dropdown">
@@ -72,10 +72,10 @@ const headerTemplate = `
                 <ul class="submenu">
                    <li><a href="../servicespages/company-incorporation.html">Company Incorporation</a></li>
 <li><a href="../servicespages/roc-compliance-filings.html">ROC Compliance & Filings</a></li>
-<li><a href="../servicespages/board-shareholder-compliance.html">Board & Shareholder Compliance</a></li>
 <li><a href="../servicespages/corporate-legal-advisory.html">Corporate Legal Advisory</a></li>
-<li><a href="../servicespages/company-changes-restructuring.html">Company Changes & Restructuring</a></li>
 <li><a href="../servicespages/fema-rbi-compliance.html">FEMA & RBI Compliance</a></li>
+<li><a href="../servicespages/board-shareholder-compliance.html">Board & Shareholder Compliance</a></li>
+<li><a href="../servicespages/company-changes-restructuring.html">Company Changes & Restructuring</a></li>
 <li><a href="../servicespages/specialized-cs-services.html">Specialized CS Services</a></li>
                 </ul>
             </li>
@@ -105,7 +105,7 @@ const headerTemplate = `
 <li><a href="../servicespages/startup-special-registrations.html">Startup & Special Registrations</a></li>
 <li><a href="../servicespages/ngo-trust-registrations.html">NGO & Trust Registrations</a></li>
 <li><a href="../servicespages/intellectual-property-registrations.html">Intellectual Property Registrations</a></li>
-<li><a href="../servicespages/other-licenses-registrations.html">Other Licenses & Registrations</a></li>
+<li><a href="../servicespages/other-licenses-registrations.html">Specialized Licenses and Regulatory Registrations</a></li>
                 </ul>
             </li>
             <li class="dropdown">
@@ -127,7 +127,7 @@ const headerTemplate = `
                 </ul>
             </li>
 
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="../servicespages/contact.html">Contact</a></li>
 
         </ul>
     </nav>

@@ -39,7 +39,9 @@
 .floating-icon:hover{
     transform:translateY(-4px) scale(1.08);
 }
-
+.twiter{
+    background:#242424;
+}
 .linkedin{
     background:#0077B5;
 }
