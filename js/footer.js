@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             <div class="contact-item">
                 <i class="fa-solid fa-envelope"></i>
-                <a href="mailto:info@radhikataxiservices.com">
+                <a href="mailto:thetaxtitans48@gmail.com">
                     thetaxtitans48@gmail.com
                 </a>
             </div>
